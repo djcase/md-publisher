@@ -1,0 +1,9 @@
+sciencebasepy
+python-dateutil
+flask
+flask-cors
+flask-autodoc
+requests
+bs4
+pymongo
+certifi

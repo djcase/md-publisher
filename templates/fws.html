@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/vnd.microsoft.icon">
+        <title>
+            {% if title is defined -%}
+                {{title}}
+            {% else -%}
+                Documentation
+            {% endif -%}
+        </title>
+
+        <style type="text/css">
+            #treewindow {
+                width: 20%;
+            }
+            #mainwindow {
+                width: 80%;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+            }
+            body {
+                margin: 0;
+            }
+            div.mapping {
+                margin: 20px 20px 35px 20px;
+            }
+            .location { font-style: italic; }
+            ul.methods:before { content: "Methods: "; }
+            ul.methods li {
+                display: inline;
+                list-style: none;
+            }
+            ul.methods li:after { content: ","; }
+            ul.methods li:last-child:after { content: ""; }
+            ul.arguments:before { content: "Arguments: "; }
+            ul.arguments li {
+                display: inline;
+                list-style: none;
+            }
+            ul.arguments .argument { font-style:italic }
+            ul.arguments .default:not(:empty):before { content: "("; }
+            ul.arguments .default:not(:empty):after { content: ")"; }
+            ul.arguments li:after { content: ","; }
+            ul.arguments li:last-child:after { content: ""; }
+            ul.property li {
+                display: inline;
+                list-style: none;
+            }
+            .docstring:before { content: "Description: "; }
+        </style>
+
+        <style>
+            .splash-panel-row {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            .splash-panel-col {
+                padding-left: 3px;
+                padding-right: 3px;
+                padding-bottom: 6px;
+            }
+
+            .splash-panel {
+                padding-left: 1.5em;
+                border: 1px solid #4a4a4a;
+                border-radius: 5px;
+                min-height: 13em;
+            }
+
+            .splash-panel-body ul li {
+                color: #4a4a4a;
+            }
+
+            ul.splash-list {
+                font-size: medium;
+                padding-left: 1em;
+            }
+
+            ul.splash-list > li {
+                padding-bottom: 0.5em;
+            }
+        </style>
+        <style>
+            header#navbar {
+                position: relative;
+                width: 100%;
+                background: linear-gradient(-180deg,rgb(2,29,68) 0%,rgb(14,51,99) 40%,rgba(23,67,123,0.8) 69%,rgba(32,84,147,0.8) 100%);
+                margin: 0;
+                border: 0 none;
+                border-radius: 0;
+                z-index: 99;
+            }
+            header#navbar > .container {
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: auto;
+                height: auto;
+                margin-right: auto;
+            }
+            header#navbar .navbar-header {
+                width: auto;
+                margin-bottom: 0px;
+            }
+            .fws-branding {
+                padding-left: 0px;
+                display: flex;
+            }
+            .container {
+                padding-top: 18px;
+                width: 1170px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .fws-branding__logo {
+                padding-bottom: 0;
+            }
+            .fws-branding__name-slogan-wrapper {
+                align-self: flex-start;
+                margin-left: 15px;
+            }
+            .fws-branding__name, .fws-branding__text {
+                display: block;
+                font-size: 1.375em;
+                font-weight: 600;
+                line-height: 1;
+                color: #fff;
+            }
+            a {
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 2.75em;
+                font-weight: 600;
+                line-height: 1.29;
+                color: #205493;
+                margin-top: 22px;
+                margin-bottom: 25px;
+            }
+            h2 {
+                font-size: 2.125em;
+                font-weight: 600;
+                line-height: 1.29;
+                color: #205493;
+                margin-top: 22px;
+                margin-bottom: 11px;
+            }
+            h3 {
+                font-size: 1.5em;
+                font-weight: 600;
+                line-height: 1.42;
+                color: #000;
+                margin-top: 22px;
+                margin-bottom: 11px;
+            }
+            .region-navigation {
+                display: flex;
+                padding-bottom: 20px;
+            }
+            .region-links {
+                margin-left: auto;
+                align-self: flex-end;
+                margin-right: -15px
+            }
+            .navbar-nav {
+                list-style: none;
+                padding-right: 0px;
+                float: right;
+                clear: right;
+            }
+            .navbar-nav > li {
+                margin: 0 10px 0;
+                float: left;
+            }
+            .navbar-nav > li > a {
+                text-transform: uppercase;
+                position: relative;
+                background-color: transparent;
+                padding: 0 10px 19px;
+                border: none;
+                font-weight: normal;
+                font-size: 1.25em;
+                font-weight: 700;
+                line-height: 1;
+                color: #fff;
+            }
+            .mapping-container {
+                padding-left: 15px;
+            }
+        </style>
+    </head>
+    <body vocab="https://schema.org/" typeof="WebPage">
+        <header id="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="region-navigation">
+                        <div class="fws-branding">
+                            <a class="fws-branding__logo" href="https://www.fws.gov" title="FWS Home" rel="home">
+                                <img src={{ url_for('static', filename="fws_logo.svg")}}>
+                            </a>
+                            <div class="fws-branding__name-slogan-wrapper">
+                                <a class="fws-branding__name" href="https://www.fws.gov" title="FWS Home" rel="home">
+                                    U.S. Fish & Wildlife Service
+                                </a>
+                            </div>
+                        </div>
+                        <div class="region-links">
+                            <ul class="navbar-nav">
+                                <li>
+                                    <a href="https://www.fws.gov/science/catalog">SA Science Catalog</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sciencebase.gov/catalog/item/5011a6bae4b0d78fd4e59bcd">FWS ScienceBase Community</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <h1 class="page-header">
+                FWS Metadata Publishing Service
+            </h1>
+            <div class="content" style="border: none; vertical-align: top;">
+                <div class="row">
+                    <div class="splash-panel-col col-md-12 col-sm-6">
+                        <div class="splash-panel">
+                            <div class="splash-panel-body">
+                                <div class="sb-container-clearfix">
+                                <h2>Available Endpoints</h2>
+                                    {% for doc in autodoc %}
+                                    <div class="mapping">
+                                        <h3>{{doc.rule|escape}}</h3>
+                                        <div class="mapping-container">
+                                            <ul class="methods">
+                                                {% for method in doc.methods -%}
+                                                <li class="method">{{method}}</li>
+                                                {% endfor %}
+                                            </ul>
+                                            <ul class="arguments">
+                                                {% for arg in doc.args %}
+                                                <li>
+                                                    <span class="argument">{{arg}}</span>
+                                                    <span class="default">{{doc.defaults[arg]}}</span>
+                                                </li>
+                                                {% endfor %}
+                                            </ul>
+                                            <p class="docstring">{% autoescape false %}{{doc.docstring|urlize|nl2br}}{% endautoescape %}</p>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

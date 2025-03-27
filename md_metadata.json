@@ -1,0 +1,1512 @@
+{
+    "metadataRepository": [
+        {
+            "metadataStandard": "mdJSON",
+            "citation": {
+                "title": "LCC Network Science Catalog"
+            },
+            "repository": "ScienceBase"
+        }
+    ],
+    "contact": [
+        {
+            "electronicMailAddress": [
+                "elsa_haubold@fws.gov",
+                "jillian_cohen@fws.gov"
+            ],
+            "isOrganization": true,
+            "name": "Landscape Conservation Cooperative Network",
+            "onlineResource": [
+                {
+                    "uri": "https://lccnetwork.org",
+                    "name": "Landscape Conservation Cooperative Network Website"
+                }
+            ],
+            "address": [
+                {
+                    "city": "Falls Church",
+                    "addressType": [
+                        "mailing",
+                        "physical"
+                    ],
+                    "country": "USA",
+                    "deliveryPoint": [
+                        "Science Applications, USFWS",
+                        "5275 Leesburg Pike"
+                    ],
+                    "adminstrativeArea": "VA",
+                    "postalCode": "22041"
+                }
+            ],
+            "phone": [
+                {
+                    "phoneNumber": "7033581953",
+                    "phoneName": "Elsa Haubold",
+                    "service": [
+                        "voice"
+                    ]
+                },
+                {
+                    "phoneNumber": "7033581764",
+                    "phoneName": "Jillian Cohen",
+                    "service": [
+                        "voice"
+                    ]
+                }
+            ],
+            "contactId": "c6007b64-4fbf-4a2d-ab79-8dc56bbdf0a2",
+            "contactType": "lcc",
+            "logoGraphic": [
+                {
+                    "fileName": "LCC Network Logo",
+                    "fileUri": [
+                        {
+                            "uri": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkAEsDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAUEBgEDBwII/8QAMBAAAgEDAwIFAwEJAAAAAAAAAQIDAAQRBRIhBjETIkFRYRVxgaEWFzKCkbHB4fD/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMFAAT/xAAkEQACAgEDBAIDAAAAAAAAAAAAAQIRAxIhMQQTQVEiYXHB4f/aAAwDAQACEQMRAD8A+pRz80HtQOBzXPNYuurdWurrT7GwSztdxjNwzEblPrkgY/lBpow1PmiOXJ21dW/oZaz1xa2d21np9tLqF0vDLDyF/NQH69Z42t3sZbHUGIVBOPLgnvUmz0i56XtIbfSLQXlxNkzXLA5B+3bH5pX1HplubC5uuqr5Ibl0xbrF5nRs8YHr7YHoTz6iWfqMKk8VOvMvX2eeOPqZ7xe/qv2N5b7V9Gkhm1C4juIZuWj4BHwKi/vA8F991o95DZ7seOeR96q3TDDWtXtLfXb508GHbbI2Ru9uf+zVvNrrlrbvpyW0N3A2QkjAEAfn/P61jvv4nqg3ofD5v+M0oSx43pmtT8q+GWOHX9MkgilW7i2SDK88/mmUMqTRh4mV0PYqciuSyabJ0jfA6laC+0ucYLJkmI/HzTrRri4gSW86bb6hpzMUMZyCjDnaRjIPPcA1TH1uRSqcfzXKGzYnD5R3i+GdHFFQ9Ollms4pLiLwpWXLJz5T7c1LrVi9SsiFHvSLVNMvbqedrbUXtopolTCrkoQSdy/JzSy86X1G4Uj6/eDOCOwMbYI3r8gkMAcjI5yOKIaLfSLUumdN1HVYr+7g8aeNNihj5cfb80rl0p7S7l8fW2RnM0kYcnMYY/xd8Ej54+Kg3OlxvDI0nUzl8wO5dsIUVl4YAjuSOxHJ5yOKScIzVSWw0W47xY/6h6Y0/XII0njMckYxHJHwyj2+1SOm9Ik0fTzbSXct2d5YPJ3A44/SlOrQQX128kWsLHuj8JVEhwp7nGD/ALqA+ntucftTI4aOKYJIQVUCSPzZGDtOwjHux571TU3HR4IrDFT1pbl5liSWMpKisp7hhkGtFjY21gjR2cCQozFyqDAJPc/oKp/0pVnO3qZknSR8bG53M3AIJPbtj+1Tk6ZuzcM0+sXk0ZaKRUZtux4wwyMd927LA8ZUYpKV3RXhVZbqKpp6U1LwmCdQ3kUm0AyLglz7sDx/TFXGMbEVSckDGaYB6oooogFWoaLZajMZLqNmYoYjhiMr7GoK9K6QVYtbbg21GVmJB2OrAke5MaZPrtFFFAZG0dMaU5d3t9xeQy4LHCse+B6VmDprSY0kjjtFWPKLtBOMKxcD7bmY/miigzjUelNJVPDSB0jwibVkYDyng/f5qwgAAAdqKKKAzOKKKKID/9k=",
+                            "name": "LCC-logo-med-100.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "electronicMailAddress": [
+                "lccdatasteward@fws.gov"
+            ],
+            "isOrganization": false,
+            "positionName": "LCC Network Data Manager",
+            "name": "LCC Network Data Steward",
+            "onlineResource": [],
+            "memberOfOrganization": [
+                "c6007b64-4fbf-4a2d-ab79-8dc56bbdf0a2"
+            ],
+            "address": [],
+            "phone": [],
+            "contactId": "edc6b779-3352-4a81-8430-76bcce1bfcb3",
+            "contactType": "lcc",
+            "logoGraphic": [],
+            "hoursOfService": []
+        },
+        {
+            "electronicMailAddress": [
+                "staff@arcticlcc.org"
+            ],
+            "isOrganization": true,
+            "name": "Arctic Landscape Conservation Cooperative",
+            "onlineResource": [
+                {
+                    "function": "information",
+                    "protocol": "http",
+                    "uri": "http://arcticlcc.org"
+                }
+            ],
+            "address": [
+                {
+                    "city": "Anchorage",
+                    "addressType": [
+                        "mailing"
+                    ],
+                    "country": "United States",
+                    "administrativeArea": "Alaska",
+                    "deliveryPoint": [
+                        "U.S. Fish & Wildlife Service",
+                        "1011 E. Tudor Rd"
+                    ],
+                    "postalCode": "99503"
+                }
+            ],
+            "phone": [
+                {
+                    "phoneNumber": "+1 907 7863532",
+                    "service": [
+                        "voice"
+                    ]
+                }
+            ],
+            "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66",
+            "contactType": "lcc"
+        },
+        {
+            "electronicMailAddress": [
+                "Burton.Humphrey@ihs.gov"
+            ],
+            "isOrganization": false,
+            "positionName": "Financial Officer",
+            "name": "Burton Humphrey",
+            "memberOfOrganization": [
+                "ad5c370b-da8f-4729-9e49-2631b0f444dc"
+            ],
+            "phone": [
+                {
+                    "phoneNumber": "+1 907 7292965",
+                    "service": [
+                        "voice"
+                    ]
+                }
+            ],
+            "contactId": "ad5c370b-da8f-4729-9e49-2631b0f444dc",
+            "contactType": "federal"
+        },
+        {
+            "electronicMailAddress": [
+                "jberner@anthc.org"
+            ],
+            "isOrganization": false,
+            "positionName": "Senior Director for Science",
+            "name": "James Berner",
+            "memberOfOrganization": [
+                "fc78cf26-6d3f-44d3-adf4-85c52b09a55b"
+            ],
+            "address": [
+                {
+                    "city": "Anchorage",
+                    "addressType": [
+                        "mailing"
+                    ],
+                    "country": "United States",
+                    "administrativeArea": "Alaska",
+                    "deliveryPoint": [
+                        "4000 Ambassador Drive"
+                    ],
+                    "postalCode": "99508"
+                }
+            ],
+            "phone": [
+                {
+                    "phoneNumber": "+1 907 7293640",
+                    "service": [
+                        "voice"
+                    ]
+                }
+            ],
+            "contactId": "fc78cf26-6d3f-44d3-adf4-85c52b09a55b",
+            "contactType": "consortium"
+        },
+        {
+            "contactId": "61ad1089-d9a6-4372-972e-4ea4c858b1d3",
+            "isOrganization": true,
+            "name": "Indian Health Service",
+            "contactType": "federal"
+        },
+        {
+            "isOrganization": true,
+            "name": "Alaska Area Native Health Service",
+            "memberOfOrganization": [
+                "61ad1089-d9a6-4372-972e-4ea4c858b1d3"
+            ],
+            "address": [
+                {
+                    "city": "Anchorage",
+                    "addressType": [
+                        "physical"
+                    ],
+                    "country": "United States",
+                    "administrativeArea": "Alaska",
+                    "deliveryPoint": [
+                        "4141 Ambassador Drive",
+                        "Suite 3000"
+                    ],
+                    "postalCode": "99508-5928"
+                }
+            ],
+            "contactId": "f39f0c67-2525-4227-8d90-3be91523e2d7",
+            "contactType": "federal"
+        },
+        {
+            "isOrganization": true,
+            "name": "Alaska Native Tribal Health Consortium",
+            "address": [
+                {
+                    "city": "Anchorage",
+                    "addressType": [
+                        "physical"
+                    ],
+                    "country": "United States",
+                    "administrativeArea": "Alaska",
+                    "deliveryPoint": [
+                        "4000 Ambassador Drive"
+                    ],
+                    "postalCode": "99508"
+                }
+            ],
+            "phone": [
+                {
+                    "phoneNumber": "+1 907 7291900",
+                    "service": [
+                        "voice"
+                    ]
+                }
+            ],
+            "contactId": "280d9c10-8ea8-4796-b1b6-1542cf3da20b",
+            "contactType": "nonProfit"
+        }
+    ],
+    "metadata": {
+        "associatedResource": [],
+        "resourceInfo": {
+            "status": [
+                "completed"
+            ],
+            "supplementalInfo": "",
+            "pointOfContact": [
+                {
+                    "party": [
+                        {
+                            "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                        },
+                        {
+                            "contactId": "edc6b779-3352-4a81-8430-76bcce1bfcb3"
+                        }
+                    ],
+                    "role": "pointOfContact"
+                },
+                {
+                    "party": [
+                        {
+                            "contactId": "fc78cf26-6d3f-44d3-adf4-85c52b09a55b"
+                        }
+                    ],
+                    "role": "Principal Investigator"
+                }
+            ],
+            "keyword": [
+                {
+                    "keywordType": "isoTopicCategory",
+                    "fullPath": true,
+                    "thesaurus": {
+                        "date": [
+                            {
+                                "date": "2014-04",
+                                "dateType": "revision"
+                            }
+                        ],
+                        "edition": "ISO 19115-1:2014",
+                        "identifier": [
+                            {
+                                "identifier": "ISO 19115 Topic Category"
+                            }
+                        ],
+                        "onlineResource": [
+                            {
+                                "uri": "https://doi.org/10.18123/D6RP4M"
+                            }
+                        ],
+                        "title": "ISO 19115 Topic Category"
+                    },
+                    "keyword": [
+                        {
+                            "path": [
+                                "health"
+                            ],
+                            "keyword": "health"
+                        },
+                        {
+                            "path": [
+                                "society"
+                            ],
+                            "keyword": "society"
+                        }
+                    ]
+                },
+                {
+                    "keywordType": "theme",
+                    "thesaurus": {
+                        "date": [
+                            {
+                                "date": "2013-04-01",
+                                "dateType": "revision"
+                            }
+                        ],
+                        "edition": "Version 8.0.0",
+                        "presentationForm": [
+                            "documentDigital"
+                        ],
+                        "onlineResource": [
+                            {
+                                "uri": "http://gcmd.nasa.gov/learn/keywords.html"
+                            }
+                        ],
+                        "title": "NASA/Global Change Master Directory (GCMD) Earth Science Keywords"
+                    },
+                    "keyword": [
+                        {
+                            "keyword": "HUMAN DIMENSIONS"
+                        },
+                        {
+                            "keyword": "PUBLIC HEALTH"
+                        }
+                    ]
+                },
+                {
+                    "keywordType": "LCC End User Type",
+                    "fullPath": true,
+                    "thesaurus": {
+                        "date": [
+                            {
+                                "date": "2017-09",
+                                "dateType": "revision"
+                            }
+                        ],
+                        "edition": "2017",
+                        "identifier": [
+                            {
+                                "identifier": "425f4a7c-dca2-56d8-947e-6f6bd1033d70"
+                            }
+                        ],
+                        "onlineResource": [
+                            {
+                                "uri": "https://www.sciencebase.gov/vocab/vocabulary/54760ef9e4b0f62cb5dc41a0"
+                            }
+                        ],
+                        "title": "End User Types - Landscape Conservation Cooperatives"
+                    },
+                    "keyword": [
+                        {
+                            "path": [
+                                "Tribes"
+                            ],
+                            "keyword": "Tribes"
+                        },
+                        {
+                            "path": [
+                                "Academics & scientific researchers"
+                            ],
+                            "keyword": "Academics & scientific researchers"
+                        }
+                    ]
+                },
+                {
+                    "keywordType": "LCC Project Category",
+                    "fullPath": true,
+                    "thesaurus": {
+                        "date": [
+                            {
+                                "date": "2017-09",
+                                "dateType": "revision"
+                            }
+                        ],
+                        "edition": "2017",
+                        "identifier": [
+                            {
+                                "identifier": "5da1d3b7-375b-58ae-a134-2ee0c94c395f"
+                            }
+                        ],
+                        "onlineResource": [
+                            {
+                                "uri": "https://www.sciencebase.gov/vocab/vocabulary/52dee7c5e4b0dee2a6cd6b18"
+                            }
+                        ],
+                        "title": "Project Category - Landscape Conservation Cooperatives"
+                    },
+                    "keyword": [
+                        {
+                            "path": [
+                                "Monitoring"
+                            ],
+                            "keyword": "Monitoring"
+                        },
+                        {
+                            "path": [
+                                "Socio-economics/Ecosystem Services"
+                            ],
+                            "keyword": "Socio-economics/Ecosystem Services"
+                        }
+                    ]
+                }
+            ],
+            "constraint": [
+                {
+                    "useLimitation": [
+                        "While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, the Arctic Landscape Conservation Cooperative cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. The Arctic Landscape Conservation Cooperative makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty."
+                    ],
+                    "type": "use"
+                }
+            ],
+            "resourceType": [
+                {
+                    "type": "project"
+                }
+            ],
+            "abstract": "Work completed by ANTHC has identified climate-related active and potential human health threats in three thematic areas:  1)  Permafrost changes; 2)  Habitat changes; 3)  Impacts on wildlife.  Rural villages in Arctic Alaska have requested, and received in-depth environmental health assessments, and adaptation strategies are in development.  In response to these findings, ANTHC has developed the RAMP, and is collaborating with UA to develop relevant monitoring and surveillance tools for the thematic areas identified.  This includes a training curriculum for village residents who will be observing, monitoring the RAMP technology, and collecting specimens.  In addition, the UA will be funded to develop laboratory technology to enable village residents to monitor their environment, and for UA\u2019s Wildlife Toxicology Laboratory to perform serosurveillance for zoonotic diseases on hunter-collected blood specimens, utilizing simple filter paper blood spot technology.  A Climate/Health Assessment will be performed in the village of Selawik as part of the Proposal.  Data from the first 12 months of hunter specimens will be combined with human zoonotic disease seroprevalence on rural Arctic AN residents, gathered and analyzed by CDC, as well as historic human and animal seroprevalence data, to establish time trends over the recent period of warming, and to create the basis for further statistical analysis of the impact or warming on both zoonotic infection of subsistence species, and human residents, and, if possible to create potential models of the interaction of climate, wildlife, and human residents and consumers.  A network of communities with common monitoring observations, a common GIS interface to display the data and trends, and a common website to share useful adaptive strategies is also planned.",
+            "citation": {
+                "date": [
+                    {
+                        "date": "2011-09-01",
+                        "dateType": "creation"
+                    }
+                ],
+                "responsibleParty": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                            }
+                        ],
+                        "role": "administrator"
+                    },
+                    {
+                        "party": [
+                            {
+                                "contactId": "280d9c10-8ea8-4796-b1b6-1542cf3da20b"
+                            }
+                        ],
+                        "role": "Collaborator"
+                    },
+                    {
+                        "party": [
+                            {
+                                "contactId": "fc78cf26-6d3f-44d3-adf4-85c52b09a55b"
+                            }
+                        ],
+                        "role": "Principal Investigator"
+                    },
+                    {
+                        "party": [
+                            {
+                                "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                            }
+                        ],
+                        "role": "Funding"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "identifier": "4bd4c161-7287-443c-a5be-d1b02acec8af",
+                        "namespace": "urn:uuid",
+                        "authority": {
+                            "date": [
+                                {
+                                    "date": "2011-09-01",
+                                    "dateType": "creation"
+                                }
+                            ],
+                            "responsibleParty": [
+                                {
+                                    "party": [
+                                        {
+                                            "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                                        }
+                                    ],
+                                    "role": "originator"
+                                }
+                            ],
+                            "title": "Arctic Landscape Conservation Cooperative"
+                        }
+                    },
+                    {
+                        "identifier": "ALCC2011-07",
+                        "namespace": "lcc:arctic",
+                        "authority": {
+                            "date": [
+                                {
+                                    "date": "2011-09-01",
+                                    "dateType": "creation"
+                                }
+                            ],
+                            "responsibleParty": [
+                                {
+                                    "party": [
+                                        {
+                                            "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                                        }
+                                    ],
+                                    "role": "originator"
+                                }
+                            ],
+                            "title": "Arctic Landscape Conservation Cooperative"
+                        }
+                    }
+                ],
+                "onlineResource": [
+                    {
+                        "function": "information",
+                        "description": "Web page with detailed information about the resource.",
+                        "protocol": "http",
+                        "uri": "http://arcticlcc.org/projects/ALCC2011-07",
+                        "name": "Resource website"
+                    }
+                ],
+                "title": "RAMP: Develop the Rural Alaska Monitoring Program"
+            },
+            "defaultResourceLocale": {
+                "country": "USA",
+                "characterSet": "UTF-8",
+                "language": "eng"
+            },
+            "shortAbstract": "Agreement with IHS to support ongoing work by Alaska Native Tribal Health Consortium to develop the Rural Alaska Monitoring Program.",
+            "extent": [
+                {
+                    "geographicExtent": [
+                        {
+                            "boundingBox": {
+                                "northLatitude": 71.437468665965,
+                                "westLongitude": -179.99998854085,
+                                "southLatitude": 51.376135899163,
+                                "eastLongitude": -130.00309156985
+                            },
+                            "geographicElement": [
+                                {
+                                    "crs": {
+                                        "type": "name",
+                                        "properties": {
+                                            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                                        }
+                                    },
+                                    "type": "FeatureCollection",
+                                    "features": [
+                                        {
+                                            "geometry": {
+                                                "type": "Polygon",
+                                                "coordinates": [
+                                                    [
+                                                        [
+                                                            -179.999989,
+                                                            51.963292
+                                                        ],
+                                                        [
+                                                            -179.921685,
+                                                            51.944128
+                                                        ],
+                                                        [
+                                                            -179.866934,
+                                                            51.929416
+                                                        ],
+                                                        [
+                                                            -179.367884,
+                                                            51.88578
+                                                        ],
+                                                        [
+                                                            -178.933241,
+                                                            51.90127
+                                                        ],
+                                                        [
+                                                            -178.182645,
+                                                            51.975242
+                                                        ],
+                                                        [
+                                                            -176.955678,
+                                                            52.100364
+                                                        ],
+                                                        [
+                                                            -175.709428,
+                                                            52.203772
+                                                        ],
+                                                        [
+                                                            -174.940967,
+                                                            52.286543
+                                                        ],
+                                                        [
+                                                            -174.543495,
+                                                            52.380886
+                                                        ],
+                                                        [
+                                                            -174.160218,
+                                                            52.427761
+                                                        ],
+                                                        [
+                                                            -173.567127,
+                                                            52.373508
+                                                        ],
+                                                        [
+                                                            -172.267623,
+                                                            52.493537
+                                                        ],
+                                                        [
+                                                            -170.996909,
+                                                            52.814024
+                                                        ],
+                                                        [
+                                                            -170.01255,
+                                                            53.07414
+                                                        ],
+                                                        [
+                                                            -168.123505,
+                                                            53.688396
+                                                        ],
+                                                        [
+                                                            -166.019274,
+                                                            54.37308
+                                                        ],
+                                                        [
+                                                            -164.808074,
+                                                            54.881383
+                                                        ],
+                                                        [
+                                                            -164.345976,
+                                                            54.962663
+                                                        ],
+                                                        [
+                                                            -163.58148,
+                                                            55.14437
+                                                        ],
+                                                        [
+                                                            -162.813076,
+                                                            55.406965
+                                                        ],
+                                                        [
+                                                            -161.850641,
+                                                            55.920628
+                                                        ],
+                                                        [
+                                                            -161.16123,
+                                                            56.059933
+                                                        ],
+                                                        [
+                                                            -160.688375,
+                                                            56.187712
+                                                        ],
+                                                        [
+                                                            -158.916022,
+                                                            57.030163
+                                                        ],
+                                                        [
+                                                            -158.097671,
+                                                            57.454518
+                                                        ],
+                                                        [
+                                                            -157.870629,
+                                                            57.727639
+                                                        ],
+                                                        [
+                                                            -157.88083,
+                                                            57.852269
+                                                        ],
+                                                        [
+                                                            -157.770699,
+                                                            57.877805
+                                                        ],
+                                                        [
+                                                            -157.790599,
+                                                            58.062248
+                                                        ],
+                                                        [
+                                                            -158.574773,
+                                                            58.477675
+                                                        ],
+                                                        [
+                                                            -158.725879,
+                                                            58.315493
+                                                        ],
+                                                        [
+                                                            -159.149682,
+                                                            58.355983
+                                                        ],
+                                                        [
+                                                            -159.307708,
+                                                            58.496737
+                                                        ],
+                                                        [
+                                                            -159.880252,
+                                                            58.585674
+                                                        ],
+                                                        [
+                                                            -161.574533,
+                                                            58.529583
+                                                        ],
+                                                        [
+                                                            -161.80714,
+                                                            58.463072
+                                                        ],
+                                                        [
+                                                            -162.2097,
+                                                            58.614211
+                                                        ],
+                                                        [
+                                                            -162.141053,
+                                                            59.138518
+                                                        ],
+                                                        [
+                                                            -162.19472,
+                                                            59.35929
+                                                        ],
+                                                        [
+                                                            -163.380216,
+                                                            59.723771
+                                                        ],
+                                                        [
+                                                            -163.877828,
+                                                            59.696899
+                                                        ],
+                                                        [
+                                                            -164.167623,
+                                                            59.770544
+                                                        ],
+                                                        [
+                                                            -164.276458,
+                                                            59.843507
+                                                        ],
+                                                        [
+                                                            -164.378323,
+                                                            59.984026
+                                                        ],
+                                                        [
+                                                            -164.552365,
+                                                            60.075695
+                                                        ],
+                                                        [
+                                                            -164.782483,
+                                                            60.157887
+                                                        ],
+                                                        [
+                                                            -165.001044,
+                                                            60.144787
+                                                        ],
+                                                        [
+                                                            -165.291267,
+                                                            60.086838
+                                                        ],
+                                                        [
+                                                            -165.391233,
+                                                            59.929424
+                                                        ],
+                                                        [
+                                                            -165.672681,
+                                                            59.799091
+                                                        ],
+                                                        [
+                                                            -166.063345,
+                                                            59.710856
+                                                        ],
+                                                        [
+                                                            -166.475622,
+                                                            59.734817
+                                                        ],
+                                                        [
+                                                            -166.847179,
+                                                            59.824235
+                                                        ],
+                                                        [
+                                                            -167.211499,
+                                                            59.937669
+                                                        ],
+                                                        [
+                                                            -167.503134,
+                                                            60.173758
+                                                        ],
+                                                        [
+                                                            -167.512859,
+                                                            60.264226
+                                                        ],
+                                                        [
+                                                            -166.303593,
+                                                            61.638079
+                                                        ],
+                                                        [
+                                                            -166.050687,
+                                                            62.0884
+                                                        ],
+                                                        [
+                                                            -165.034542,
+                                                            62.704091
+                                                        ],
+                                                        [
+                                                            -164.407284,
+                                                            63.29552
+                                                        ],
+                                                        [
+                                                            -163.430316,
+                                                            63.176365
+                                                        ],
+                                                        [
+                                                            -162.866918,
+                                                            63.354818
+                                                        ],
+                                                        [
+                                                            -162.893418,
+                                                            63.549184
+                                                        ],
+                                                        [
+                                                            -162.950384,
+                                                            63.665284
+                                                        ],
+                                                        [
+                                                            -162.466989,
+                                                            63.674373
+                                                        ],
+                                                        [
+                                                            -162.687468,
+                                                            64.307041
+                                                        ],
+                                                        [
+                                                            -163.118661,
+                                                            64.377572
+                                                        ],
+                                                        [
+                                                            -163.463241,
+                                                            64.414082
+                                                        ],
+                                                        [
+                                                            -164.138247,
+                                                            64.500289
+                                                        ],
+                                                        [
+                                                            -164.661074,
+                                                            64.407098
+                                                        ],
+                                                        [
+                                                            -165.264309,
+                                                            64.411795
+                                                        ],
+                                                        [
+                                                            -165.791704,
+                                                            64.473028
+                                                        ],
+                                                        [
+                                                            -166.231791,
+                                                            64.558948
+                                                        ],
+                                                        [
+                                                            -166.543482,
+                                                            64.678549
+                                                        ],
+                                                        [
+                                                            -167.078065,
+                                                            65.098366
+                                                        ],
+                                                        [
+                                                            -167.031305,
+                                                            65.242668
+                                                        ],
+                                                        [
+                                                            -167.213604,
+                                                            65.333917
+                                                        ],
+                                                        [
+                                                            -167.790107,
+                                                            65.42005
+                                                        ],
+                                                        [
+                                                            -168.193473,
+                                                            65.568758
+                                                        ],
+                                                        [
+                                                            -168.230513,
+                                                            65.706443
+                                                        ],
+                                                        [
+                                                            -168.128213,
+                                                            65.787723
+                                                        ],
+                                                        [
+                                                            -164.316979,
+                                                            66.681562
+                                                        ],
+                                                        [
+                                                            -163.823986,
+                                                            67.106758
+                                                        ],
+                                                        [
+                                                            -163.860987,
+                                                            67.268562
+                                                        ],
+                                                        [
+                                                            -163.932342,
+                                                            67.445374
+                                                        ],
+                                                        [
+                                                            -164.856903,
+                                                            67.835977
+                                                        ],
+                                                        [
+                                                            -165.121674,
+                                                            67.944861
+                                                        ],
+                                                        [
+                                                            -166.09402,
+                                                            68.193295
+                                                        ],
+                                                        [
+                                                            -166.363768,
+                                                            68.308441
+                                                        ],
+                                                        [
+                                                            -166.605278,
+                                                            68.31993
+                                                        ],
+                                                        [
+                                                            -166.854502,
+                                                            68.33143
+                                                        ],
+                                                        [
+                                                            -166.858908,
+                                                            68.389662
+                                                        ],
+                                                        [
+                                                            -166.224671,
+                                                            68.873745
+                                                        ],
+                                                        [
+                                                            -166.109158,
+                                                            68.890123
+                                                        ],
+                                                        [
+                                                            -165.600394,
+                                                            68.857321
+                                                        ],
+                                                        [
+                                                            -164.696431,
+                                                            68.899251
+                                                        ],
+                                                        [
+                                                            -164.174095,
+                                                            68.973463
+                                                        ],
+                                                        [
+                                                            -163.745464,
+                                                            69.089498
+                                                        ],
+                                                        [
+                                                            -163.545794,
+                                                            69.221552
+                                                        ],
+                                                        [
+                                                            -163.358926,
+                                                            69.357551
+                                                        ],
+                                                        [
+                                                            -163.316466,
+                                                            69.627005
+                                                        ],
+                                                        [
+                                                            -163.037185,
+                                                            69.888966
+                                                        ],
+                                                        [
+                                                            -162.422237,
+                                                            70.234086
+                                                        ],
+                                                        [
+                                                            -162.078448,
+                                                            70.322161
+                                                        ],
+                                                        [
+                                                            -161.812173,
+                                                            70.35769
+                                                        ],
+                                                        [
+                                                            -159.633227,
+                                                            70.833322
+                                                        ],
+                                                        [
+                                                            -159.231544,
+                                                            70.873798
+                                                        ],
+                                                        [
+                                                            -156.71675,
+                                                            71.390846
+                                                        ],
+                                                        [
+                                                            -156.635253,
+                                                            71.408329
+                                                        ],
+                                                        [
+                                                            -156.503442,
+                                                            71.425171
+                                                        ],
+                                                        [
+                                                            -156.406641,
+                                                            71.437469
+                                                        ],
+                                                        [
+                                                            -152.424339,
+                                                            70.91131
+                                                        ],
+                                                        [
+                                                            -152.236111,
+                                                            70.824818
+                                                        ],
+                                                        [
+                                                            -152.458091,
+                                                            70.675279
+                                                        ],
+                                                        [
+                                                            -152.339335,
+                                                            70.619805
+                                                        ],
+                                                        [
+                                                            -150.726459,
+                                                            70.514274
+                                                        ],
+                                                        [
+                                                            -149.631062,
+                                                            70.525231
+                                                        ],
+                                                        [
+                                                            -149.021818,
+                                                            70.491535
+                                                        ],
+                                                        [
+                                                            -148.9433,
+                                                            70.451099
+                                                        ],
+                                                        [
+                                                            -148.132953,
+                                                            70.34897
+                                                        ],
+                                                        [
+                                                            -145.965083,
+                                                            70.184113
+                                                        ],
+                                                        [
+                                                            -145.605871,
+                                                            70.077167
+                                                        ],
+                                                        [
+                                                            -145.163376,
+                                                            69.971599
+                                                        ],
+                                                        [
+                                                            -144.607662,
+                                                            69.987011
+                                                        ],
+                                                        [
+                                                            -144.037554,
+                                                            70.073239
+                                                        ],
+                                                        [
+                                                            -143.253958,
+                                                            70.122608
+                                                        ],
+                                                        [
+                                                            -142.966136,
+                                                            70.111121
+                                                        ],
+                                                        [
+                                                            -142.706714,
+                                                            70.033995
+                                                        ],
+                                                        [
+                                                            -142.199236,
+                                                            69.873842
+                                                        ],
+                                                        [
+                                                            -141.694495,
+                                                            69.785711
+                                                        ],
+                                                        [
+                                                            -141.114269,
+                                                            69.684566
+                                                        ],
+                                                        [
+                                                            -140.968153,
+                                                            69.66106
+                                                        ],
+                                                        [
+                                                            -141.001862,
+                                                            60.449607
+                                                        ],
+                                                        [
+                                                            -139.918356,
+                                                            60.214669
+                                                        ],
+                                                        [
+                                                            -139.074879,
+                                                            60.351929
+                                                        ],
+                                                        [
+                                                            -138.32503,
+                                                            59.615408
+                                                        ],
+                                                        [
+                                                            -137.562822,
+                                                            59.150108
+                                                        ],
+                                                        [
+                                                            -136.676785,
+                                                            59.163607
+                                                        ],
+                                                        [
+                                                            -136.352885,
+                                                            59.599444
+                                                        ],
+                                                        [
+                                                            -135.477923,
+                                                            59.797418
+                                                        ],
+                                                        [
+                                                            -134.633211,
+                                                            59.460855
+                                                        ],
+                                                        [
+                                                            -133.446408,
+                                                            58.777493
+                                                        ],
+                                                        [
+                                                            -132.309165,
+                                                            57.280997
+                                                        ],
+                                                        [
+                                                            -131.552546,
+                                                            56.59666
+                                                        ],
+                                                        [
+                                                            -130.504475,
+                                                            56.245193
+                                                        ],
+                                                        [
+                                                            -130.003092,
+                                                            56.007949
+                                                        ],
+                                                        [
+                                                            -130.014892,
+                                                            55.3105
+                                                        ],
+                                                        [
+                                                            -130.282524,
+                                                            54.978247
+                                                        ],
+                                                        [
+                                                            -130.612211,
+                                                            54.79193
+                                                        ],
+                                                        [
+                                                            -132.51718,
+                                                            54.542109
+                                                        ],
+                                                        [
+                                                            -132.773953,
+                                                            54.581051
+                                                        ],
+                                                        [
+                                                            -133.102855,
+                                                            54.818858
+                                                        ],
+                                                        [
+                                                            -133.389432,
+                                                            55.096953
+                                                        ],
+                                                        [
+                                                            -133.704807,
+                                                            55.171089
+                                                        ],
+                                                        [
+                                                            -135.661956,
+                                                            57.004936
+                                                        ],
+                                                        [
+                                                            -135.754749,
+                                                            57.000725
+                                                        ],
+                                                        [
+                                                            -135.996243,
+                                                            56.989431
+                                                        ],
+                                                        [
+                                                            -135.977904,
+                                                            57.123407
+                                                        ],
+                                                        [
+                                                            -136.305883,
+                                                            57.75056
+                                                        ],
+                                                        [
+                                                            -136.885295,
+                                                            58.200479
+                                                        ],
+                                                        [
+                                                            -137.723067,
+                                                            58.548123
+                                                        ],
+                                                        [
+                                                            -138.19804,
+                                                            58.863941
+                                                        ],
+                                                        [
+                                                            -139.499539,
+                                                            59.360842
+                                                        ],
+                                                        [
+                                                            -140.15109,
+                                                            59.484433
+                                                        ],
+                                                        [
+                                                            -140.76759,
+                                                            59.697808
+                                                        ],
+                                                        [
+                                                            -142.961669,
+                                                            60.020547
+                                                        ],
+                                                        [
+                                                            -144.054606,
+                                                            59.915518
+                                                        ],
+                                                        [
+                                                            -144.631721,
+                                                            59.742537
+                                                        ],
+                                                        [
+                                                            -144.644701,
+                                                            59.749933
+                                                        ],
+                                                        [
+                                                            -147.504221,
+                                                            59.739563
+                                                        ],
+                                                        [
+                                                            -147.926774,
+                                                            59.73017
+                                                        ],
+                                                        [
+                                                            -149.174317,
+                                                            59.774029
+                                                        ],
+                                                        [
+                                                            -150.303863,
+                                                            59.229091
+                                                        ],
+                                                        [
+                                                            -151.368274,
+                                                            59.147271
+                                                        ],
+                                                        [
+                                                            -151.994991,
+                                                            58.75588
+                                                        ],
+                                                        [
+                                                            -151.70579,
+                                                            58.277258
+                                                        ],
+                                                        [
+                                                            -151.974628,
+                                                            57.547223
+                                                        ],
+                                                        [
+                                                            -152.517058,
+                                                            57.29416
+                                                        ],
+                                                        [
+                                                            -153.099063,
+                                                            56.89678
+                                                        ],
+                                                        [
+                                                            -153.335074,
+                                                            56.778366
+                                                        ],
+                                                        [
+                                                            -153.726075,
+                                                            56.687587
+                                                        ],
+                                                        [
+                                                            -154.193381,
+                                                            56.706714
+                                                        ],
+                                                        [
+                                                            -154.436781,
+                                                            56.79145
+                                                        ],
+                                                        [
+                                                            -154.701466,
+                                                            57.017829
+                                                        ],
+                                                        [
+                                                            -155.018807,
+                                                            57.432785
+                                                        ],
+                                                        [
+                                                            -155.704386,
+                                                            57.543756
+                                                        ],
+                                                        [
+                                                            -156.12472,
+                                                            57.30967
+                                                        ],
+                                                        [
+                                                            -157.094364,
+                                                            56.421197
+                                                        ],
+                                                        [
+                                                            -157.519895,
+                                                            56.255432
+                                                        ],
+                                                        [
+                                                            -159.4463,
+                                                            55.373148
+                                                        ],
+                                                        [
+                                                            -160.009672,
+                                                            54.963675
+                                                        ],
+                                                        [
+                                                            -160.720177,
+                                                            54.757083
+                                                        ],
+                                                        [
+                                                            -162.123079,
+                                                            54.354322
+                                                        ],
+                                                        [
+                                                            -163.690866,
+                                                            54.06194
+                                                        ],
+                                                        [
+                                                            -165.529279,
+                                                            53.645002
+                                                        ],
+                                                        [
+                                                            -167.682224,
+                                                            53.056471
+                                                        ],
+                                                        [
+                                                            -169.325001,
+                                                            52.614267
+                                                        ],
+                                                        [
+                                                            -170.848748,
+                                                            52.234664
+                                                        ],
+                                                        [
+                                                            -171.81914,
+                                                            52.172877
+                                                        ],
+                                                        [
+                                                            -172.706765,
+                                                            52.017183
+                                                        ],
+                                                        [
+                                                            -174.166529,
+                                                            51.89247
+                                                        ],
+                                                        [
+                                                            -175.78495,
+                                                            51.686778
+                                                        ],
+                                                        [
+                                                            -177.345116,
+                                                            51.593447
+                                                        ],
+                                                        [
+                                                            -178.813165,
+                                                            51.472342
+                                                        ],
+                                                        [
+                                                            -179.425254,
+                                                            51.602018
+                                                        ],
+                                                        [
+                                                            -179.999989,
+                                                            51.376136
+                                                        ],
+                                                        [
+                                                            -179.999989,
+                                                            51.669714
+                                                        ],
+                                                        [
+                                                            -179.999989,
+                                                            51.963292
+                                                        ]
+                                                    ]
+                                                ]
+                                            },
+                                            "type": "Feature",
+                                            "properties": {
+                                                "name": "polygon-66",
+                                                "description": "General area of interest"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "description": "project locations "
+                }
+            ],
+            "timePeriod": {
+                "endDateTime": "2016-09-01",
+                "description": "Span of project activity",
+                "startDateTime": "2011-09-01"
+            }
+        },
+        "metadataInfo": {
+            "defaultMetadataLocale": {
+                "country": "USA",
+                "characterSet": "UTF-8",
+                "language": "eng"
+            },
+            "metadataOnlineResource": [
+                {
+                    "uri": "http://metadata.arcticlcc.org/4bd4c161-7287-443c-a5be-d1b02acec8af"
+                }
+            ],
+            "metadataMaintenance": {
+                "note": [
+                    "Metadata records are generated from database"
+                ],
+                "contact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                            }
+                        ],
+                        "role": "author"
+                    }
+                ],
+                "frequency": "asNeeded"
+            },
+            "metadataIdentifier": {
+                "identifier": "4bd4c161-7287-443c-a5be-d1b02acec8af",
+                "namespace": "urn:uuid"
+            },
+            "parentMetadata": {
+                "identifier": [
+                    {
+                        "identifier": "571a88bae4b071321fe22e4a",
+                        "namespace": "gov.sciencebase.catalog"
+                    }
+                ],
+                "title": "Parent metadata for resource"
+            },
+            "metadataStatus": "completed",
+            "metadataContact": [
+                {
+                    "party": [
+                        {
+                            "contactId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66"
+                        }
+                    ],
+                    "role": "publisher"
+                },
+                {
+                    "party": [
+                        {
+                            "contactId": "edc6b779-3352-4a81-8430-76bcce1bfcb3"
+                        }
+                    ],
+                    "role": "pointOfContact"
+                }
+            ],
+            "metadataDate": [
+                {
+                    "date": "2017-11-08T00:19:21-08:00",
+                    "dateType": "creation"
+                },
+                {
+                    "date": "2017-11-08T01:52:52-08:00",
+                    "dateType": "lastUpdate"
+                }
+            ]
+        },
+        "funding": [
+            {
+                "allocation": [
+                    {
+                        "sourceId": "65a301ec-9dc7-4ac2-af78-f816b1f74f66",
+                        "currency": "USD",
+                        "amount": 91000,
+                        "matching": false,
+                        "recipientId": "f39f0c67-2525-4227-8d90-3be91523e2d7"
+                    }
+                ],
+                "timePeriod": {
+                    "startDateTime": "2011-09-01"
+                }
+            }
+        ],
+        "additionalDocumentation": []
+    },
+    "schema": {
+        "version": "2.0.0",
+        "name": "mdJson"
+    }
+}

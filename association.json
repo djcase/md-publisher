@@ -1,0 +1,134 @@
+{
+    "data": {
+        "parentid": "",
+        "mdjson": {
+            "contact": [
+                {
+                    "contactId": "ba577187-4089-4251-b54a-51f1e3568be9",
+                    "isOrganization": false,
+                    "name": "Dell Long"
+                }
+            ],
+            "metadata": {
+                "metadataInfo": {
+                    "metadataIdentifier": {
+                        "description": "USGS ScienceBase Identifier",
+                        "identifier": "",
+                        "namespace": "gov.sciencebase.catalog"
+                    },
+                    "parentMetadata": {
+                        "identifier": [
+                            {
+                                "description": "USGS ScienceBase Identifier",
+                                "identifier": "",
+                                "namespace": "gov.sciencebase.catalog",
+                                "authority": {
+                                    "date": [
+                                        {
+                                            "date": "2017-11-03T19:15:23.462Z",
+                                            "dateType": "published",
+                                            "description": "Published using mdEditor"
+                                        }
+                                    ],
+                                    "title": "ScienceBase"
+                                }
+                            }
+                        ],
+                        "title": "U.S. Geological Survey ScienceBase parent identifier"
+                    },
+                    "metadataContact": [
+                        {
+                            "party": [
+                                {
+                                    "contactId": "ba577187-4089-4251-b54a-51f1e3568be9"
+                                }
+                            ],
+                            "role": "pointOfContact"
+                        }
+                    ],
+                    "defaultMetadataLocale": {
+                        "language": "eng",
+                        "characterSet": "UTF-8",
+                        "country": "USA"
+                    },
+                    "metadataStatus": "accepted"
+                },
+                "resourceInfo": {
+                    "citation": {
+                        "date": [
+                            {
+                                "date": "2017-11-03T18:55:11+00:00",
+                                "dateType": "creation"
+                            },
+                            {
+                                "date": "2017-11-03T18:55:11+00:00",
+                                "dateType": "lastUpdate"
+                            }
+                        ],
+                        "title": "Project"
+                    },
+                    "timePeriod": {
+                        "timeInterval": {
+                            "interval": 1,
+                            "units": "year"
+                        },
+                        "startDateTime": "2017-11-01T19:06:35.577Z"
+                    },
+                    "pointOfContact": [
+                        {
+                            "party": [
+                                {
+                                    "contactId": "ba577187-4089-4251-b54a-51f1e3568be9"
+                                }
+                            ],
+                            "role": "author"
+                        }
+                    ],
+                    "status": [
+                        "accepted"
+                    ],
+                    "resourceType": [
+                        {
+                            "name": "Test Project",
+                            "type": "project"
+                        }
+                    ],
+                    "defaultResourceLocale": {
+                        "language": "eng",
+                        "characterSet": "UTF-8",
+                        "country": "USA"
+                    },
+                    "abstract": "This is a test project for the mdEditor"
+                },
+                "associatedResource": [
+                    {
+                        "resourceType": [
+                            {
+                                "name": "Report",
+                                "type": "report"
+                            }
+                        ],
+                        "resourceCitation": {
+                            "identifier": [
+                                {
+                                    "authority": {
+                                        "title": "Product"
+                                    },
+                                    "identifier": "",
+                                    "namespace": "gov.sciencebase.catalog"
+                                }
+                            ],
+                            "title": "Product"
+                        },
+                        "associationType": "product"
+                    }
+                ]
+            },
+            "schema": {
+                "name": "mdJson",
+                "version": "2.0.0"
+            }
+        },
+        "type": "records"
+    }
+}
