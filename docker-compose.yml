@@ -1,16 +1,15 @@
-version: '3.0'
 services:
-  md-publisher:
+  app:
     build:
       context: .
     depends_on:
-      - md-translator
+      - translator
     ports:
       - 5000:5000
-  md-translator:
+  translator:
     image: mdtoolkit/mdtranslator-rails:2.20.0-beta.11
     environment:
-      - SECRET_KEY_BASE=banana
-      - RAILS_SERVE_STATIC_FILES=true
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE}
+      RAILS_SERVE_STATIC_FILES: true
     ports:
       - 8080:8080

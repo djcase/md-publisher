@@ -5,4 +5,4 @@ dist/
 .idea
 .DS_Store
 venv/
-
+.env
