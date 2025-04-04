@@ -2,7 +2,7 @@ sciencebasepy
 python-dateutil
 flask
 flask-cors
-flask-autodoc
+flask-selfdoc
 requests
 bs4
 pymongo

@@ -1,5 +1,5 @@
 """ md-publisher.py is a flask application providing services to update ScienceBase items via mdJSON """
-from flask_autodoc import Autodoc
+from flask_selfdoc import Autodoc
 from flask import Flask, jsonify, abort, make_response, request, logging
 from flask_cors import CORS
 from sciencebasepy import SbSession
@@ -48,8 +48,7 @@ _item_link_types = None
 
 ITEM_FIELDS = "id,parentId,title,identifiers,facets,files,tags,extents,provenance,dates,contacts,ancestors"
 
-@app.before_first_request
-def setup_logging():
+with app.app_context():
     if not app.debug:
         # In production mode, add log handler to sys.stderr.
         handler = logging.StreamHandler()

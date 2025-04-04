@@ -1,5 +1,8 @@
 # start by pulling the python image
-FROM python:3.6
+FROM python:3.13
+
+# Install setuptools
+RUN pip install setuptools
 
 # Install UWSGI
 RUN pip install uwsgi
@@ -22,10 +25,6 @@ EXPOSE 5000
 # set the flask env variable
 ENV FLASK_APP=md-publisher.py
 ENV MD_PUBLISHER_ROOT=.
-
-# fix flask autodoc
-RUN chmod +x ./fix_flask_autodoc.sh
-RUN ./fix_flask_autodoc.sh
 
 # Set the user as www-data
 USER www-data
