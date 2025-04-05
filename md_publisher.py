@@ -172,11 +172,10 @@ def get_sb_session(request):
     :param request: Flask request
     :return: sciencebasepy session
     """
-    app.logger.debug('get_sb_session')
     global _sb_session
     if _sb_session is None:
         _sb_session = SbSession(app.config['SCIENCEBASE_ENV'])
-    if request:
+    if request and bool(request.data):
         token = {}
         request_data = get_mdjson(request)
         if 'access_token' in request_data:

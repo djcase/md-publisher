@@ -83,20 +83,3 @@ docker build -t md-publisher .
 ```bash
 docker run -p 5000:5000 md-publisher
 ```
-
-### Legacy setup instructions from the README of the original project
-
-#### Set up the environment
-1. Create a Python 3 virtual environment in the venv directory `virtualenv venv`
-2. Activate the virtual environment `. venv/bin/activate`
-3. Install dependencies `pip install -r requirements-dev.txt`
-4. Fix autodoc `. fix_flask_autodoc.sh`
-
-#### Run the service locally
-`FLASK_APP=md-publisher.py venv/bin/flask run`
-
-#### Run the service locally using WSGI
-`MD_PUBLISHER_ROOT=. venv/bin/uwsgi --http :5000 --wsgi-file md-publisher.wsgi`
-
-#### Run the unit tests
-`venv/bin/python tests.py`

@@ -4,8 +4,8 @@ FROM python:3.13
 # Install setuptools
 RUN pip install setuptools
 
-# Install UWSGI
-RUN pip install uwsgi
+# Install Gunicorn
+RUN pip install gunicorn
 
 # copy the requirements file into the image
 COPY ./requirements.txt /app/requirements.txt
@@ -29,5 +29,5 @@ ENV MD_PUBLISHER_ROOT=.
 # Set the user as www-data
 USER www-data
 
-# run uwsgi
-CMD ["uwsgi", "--http", ":5000", "--wsgi-file", "md-publisher.wsgi"]
+# run gunicorn
+CMD ["gunicorn", "-b :5000", "-w 2", "md_publisher:app"]
