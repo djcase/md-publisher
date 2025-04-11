@@ -7,7 +7,7 @@ services:
     ports:
       - 5000:5000
   translator:
-    image: mdtoolkit/mdtranslator-rails:2.20.0-beta.11
+    image: mdtoolkit/mdtranslator-rails:2.21.0-beta.2
     environment:
       SECRET_KEY_BASE: ${SECRET_KEY_BASE}
       RAILS_SERVE_STATIC_FILES: true

@@ -1,5 +1,5 @@
 import logging
-MDTRANSLATOR_URL = 'http://md-translator:8080/api/v2/translator'
+MDTRANSLATOR_URL = 'http://translator:8080/translator/api/v2/translator'
 MDJSON_FILENAME = 'md_metadata.json'
 ISO2_FILENAME = 'metadata.xml'
 ISO1_FILENAME = 'metadata_iso1.xml'
